@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  background: #020202;
+  cursor: crosshair;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#app {
+  position: absolute;
+  top: 10%;
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 5em;
+  font-weight: 900;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+p {
+  color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2em;
+  font-weight: 900;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+img {
+  height: 30rem;
+}
